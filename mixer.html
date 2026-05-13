@@ -989,7 +989,7 @@
 			<button onclick="saveScene(false, event);">💾 Save Layout</button>
 			<button onclick="saveScene(true, event);">💾<span style="position:relative;right:12px;top:2px;width:12px;display: inline-block;">💾</span>Duplicate Layout</button>
 			<button onclick="setobsSceneName();" title="When this layout is triggered, OBS will change to the specified scene as well">Link OBS Scene</button>
-			<button onclick="copyJSON();" title="This can be used with &format directly in VDO.Ninja without the mixer app. Requires a guest being active.">Show as JSON</button>
+			<button onclick="copyJSON();" title="This can be used with &format directly in Brevity without the mixer app. Requires a guest being active.">Show as JSON</button>
 			<button onclick="removeScene();">🗑️ Remove Layout</button>
 			<button id="saveAndClose" onclick="saveScene(false, event);closeScene();">💾❌ Save and Close</button>
 			<button onclick="closeScene();">❌ Close Layout Maker</button>
@@ -999,7 +999,7 @@
 	<div id="chatModule" class="hidden">
 		<div id="chatBody" class="message"> 
 			<div class="inMessage" data-translate='welcome-to-vdo-ninja-chat'>
-				Welcome to VDO.Ninja! You can send text messages directly to connected peers from here.
+				Welcome to Brevity! You can send text messages directly to connected peers from here.
 			</div>
 		</div>
 		<div class="xbutton" onclick="toggleChat();" title="Hide the chat window">x</div>
@@ -1039,7 +1039,7 @@
 				<div>
 					<a class="github" href="https://github.com/steveseguin/vdoninja" rel="noopener" target="_blank" title="Star steveseguin/vdoninja on GitHub"></a>
 				</div>
-				<div style="cursor:pointer;" onclick="window.open('https://vdo.ninja');">Powered by VDO.Ninja (v23)</div>
+				<div style="cursor:pointer;" onclick="window.open('https://studio.impilomag.co.za');">Powered by Brevity (v23)</div>
 			</div>
 		</div>
 	</div>
@@ -3287,13 +3287,13 @@
 	function processInvite(input){
 	
 		if (input.startsWith("https://obs.ninja/")){
-			input = input.replace('https://vdo.ninja/', '');
+			input = input.replace('https://studio.impilomag.co.za/', '');
 		} else if (input.startsWith("http://obs.ninja/")){
 			input = input.replace('http://vdo.ninja/', '');
 		} else if (input.startsWith("obs.ninja/")){
 			input = input.replace('vdo.ninja/', '');
-		} else if (input.startsWith("https://vdo.ninja/")){
-			input = input.replace('https://vdo.ninja/', 'vdo.ninja/');
+		} else if (input.startsWith("https://studio.impilomag.co.za/")){
+			input = input.replace('https://studio.impilomag.co.za/', 'vdo.ninja/');
 		} else if (input.startsWith("http://vdo.ninja/")){
 			input = input.replace('http://vdo.ninja/', 'vdo.ninja/');
 		} 

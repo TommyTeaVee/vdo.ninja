@@ -153,9 +153,9 @@ sudo systemctl status coturn
    - Keep coturn and SSL certificates up to date
    
 
-## VDO.Ninja Configuration
+## Brevity Configuration
 
-You have different ways to set and specify a TURN server in VDO.Ninja; see below.
+You have different ways to set and specify a TURN server in Brevity; see below.
 
 ### URL Parameters
 
@@ -269,10 +269,10 @@ try {
 ## Support
 
 For issues or questions:
-- Create an issue on the VDO.Ninja GitHub repository
-- Join the VDO.Ninja Discord community
+- Create an issue on the Brevity GitHub repository
+- Join the Brevity Discord community
 
 ## References
 - [Coturn Documentation](https://github.com/coturn/coturn/wiki/turnserver)
 - [WebRTC Samples](https://webrtc.github.io/samples/)
-- [VDO.Ninja GitHub](https://github.com/steveseguin/vdo.ninja)
+- [Brevity GitHub](https://github.com/steveseguin/vdo.ninja)

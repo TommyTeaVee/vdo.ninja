@@ -20,7 +20,7 @@
 getAllContentNodes(document.body)
 
  */
-// Copy and paste this code into VDO.Ninja's developer's console to generate new Translation files
+// Copy and paste this code into Brevity's developer's console to generate new Translation files
 
 function downloadTranslation(filename, trans = {}) { // downloads the current translation to a file
 
